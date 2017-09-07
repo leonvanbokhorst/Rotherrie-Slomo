@@ -198,10 +198,10 @@ Wire Wire Line
 	4800 3000 4800 2900
 Connection ~ 4800 2000
 Connection ~ 4800 3000
-Text GLabel 5900 2000 2    60   Input ~ 0
+Text Label 5900 2000 0    60   ~ 0
 VCC
-Text GLabel 5900 2500 2    60   Input ~ 0
-GND
-Text GLabel 5900 3000 2    60   Input ~ 0
+Text Label 5900 3000 0    60   ~ 0
 VEE
+Text Label 5900 2500 0    60   ~ 0
+GND
 $EndSCHEMATC
