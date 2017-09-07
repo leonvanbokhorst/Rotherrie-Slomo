@@ -1,0 +1,438 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Rotherrie-Slomo-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1970 3650 0    60   Input ~ 0
+GND
+Text GLabel 2310 1900 0    60   Input ~ 0
+WAVE1
+$Comp
+L TL074 U1
+U 1 1 59B15484
+P 2650 2000
+F 0 "U1" H 2650 2200 50  0000 L CNN
+F 1 "TL074" H 2650 1800 50  0000 L CNN
+F 2 "" H 2600 2100 50  0001 C CNN
+F 3 "" H 2700 2200 50  0001 C CNN
+	1    2650 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 1410 0    60   Input ~ 0
+VCC
+Text GLabel 2550 2580 0    60   Input ~ 0
+VEE
+$Comp
+L LED_Dual_2pin D1
+U 1 1 59B15AC5
+P 2600 2980
+F 0 "D1" H 2600 3205 50  0000 C CNN
+F 1 "LED_Dual_2pin" H 2600 2730 50  0000 C CNN
+F 2 "" H 2600 2980 50  0001 C CNN
+F 3 "" H 2600 2980 50  0001 C CNN
+	1    2600 2980
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 59B15B70
+P 1970 3330
+F 0 "R1" V 2050 3330 50  0000 C CNN
+F 1 "1k" V 1970 3330 50  0000 C CNN
+F 2 "" V 1900 3330 50  0001 C CNN
+F 3 "" H 1970 3330 50  0001 C CNN
+	1    1970 3330
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 59B15D4F
+P 2800 2390
+F 0 "C1" H 2825 2490 50  0000 L CNN
+F 1 "100nF" H 2825 2290 50  0000 L CNN
+F 2 "" H 2838 2240 50  0001 C CNN
+F 3 "" H 2800 2390 50  0001 C CNN
+	1    2800 2390
+	0    1    1    0   
+$EndComp
+Text GLabel 3020 2390 2    60   Input ~ 0
+GND
+Wire Wire Line
+	2550 1410 2550 1700
+Wire Wire Line
+	2950 2000 3350 2000
+Wire Wire Line
+	1970 2100 1970 3180
+Wire Wire Line
+	1970 2100 2350 2100
+Wire Wire Line
+	1970 3650 1970 3480
+Wire Wire Line
+	2650 2390 2550 2390
+Connection ~ 2550 2390
+Wire Wire Line
+	3350 2000 3350 2980
+Wire Wire Line
+	3020 2390 2950 2390
+Wire Wire Line
+	3350 2980 2910 2980
+Wire Wire Line
+	2300 2980 1970 2980
+Connection ~ 1970 2980
+Wire Wire Line
+	2550 2300 2550 2580
+Wire Wire Line
+	2310 1900 2350 1900
+$Comp
+L C C2
+U 1 1 59B1615D
+P 3020 1610
+F 0 "C2" H 3045 1710 50  0000 L CNN
+F 1 "100nF" H 3045 1510 50  0000 L CNN
+F 2 "" H 3058 1460 50  0001 C CNN
+F 3 "" H 3020 1610 50  0001 C CNN
+	1    3020 1610
+	0    1    1    0   
+$EndComp
+Text GLabel 3280 1610 2    60   Input ~ 0
+GND
+Wire Wire Line
+	2870 1610 2550 1610
+Connection ~ 2550 1610
+Wire Wire Line
+	3170 1610 3280 1610
+Text GLabel 4270 3650 0    60   Input ~ 0
+GND
+Text GLabel 4610 1900 0    60   Input ~ 0
+WAVE2
+$Comp
+L TL074 U?
+U 2 1 59B1668C
+P 4950 2000
+F 0 "U?" H 4950 2200 50  0000 L CNN
+F 1 "TL074" H 4950 1800 50  0000 L CNN
+F 2 "" H 4900 2100 50  0001 C CNN
+F 3 "" H 5000 2200 50  0001 C CNN
+	2    4950 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 1410 0    60   Input ~ 0
+VCC
+Text GLabel 4850 2580 0    60   Input ~ 0
+VEE
+$Comp
+L LED_Dual_2pin D?
+U 1 1 59B16694
+P 4900 2980
+F 0 "D?" H 4900 3205 50  0000 C CNN
+F 1 "LED_Dual_2pin" H 4900 2730 50  0000 C CNN
+F 2 "" H 4900 2980 50  0001 C CNN
+F 3 "" H 4900 2980 50  0001 C CNN
+	1    4900 2980
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59B1669A
+P 4270 3330
+F 0 "R?" V 4350 3330 50  0000 C CNN
+F 1 "1k" V 4270 3330 50  0000 C CNN
+F 2 "" V 4200 3330 50  0001 C CNN
+F 3 "" H 4270 3330 50  0001 C CNN
+	1    4270 3330
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59B166A0
+P 5100 2390
+F 0 "C?" H 5125 2490 50  0000 L CNN
+F 1 "100nF" H 5125 2290 50  0000 L CNN
+F 2 "" H 5138 2240 50  0001 C CNN
+F 3 "" H 5100 2390 50  0001 C CNN
+	1    5100 2390
+	0    1    1    0   
+$EndComp
+Text GLabel 5320 2390 2    60   Input ~ 0
+GND
+Wire Wire Line
+	4850 1410 4850 1700
+Wire Wire Line
+	5250 2000 5650 2000
+Wire Wire Line
+	4270 2100 4270 3180
+Wire Wire Line
+	4270 2100 4650 2100
+Wire Wire Line
+	4270 3650 4270 3480
+Wire Wire Line
+	4950 2390 4850 2390
+Connection ~ 4850 2390
+Wire Wire Line
+	5650 2000 5650 2980
+Wire Wire Line
+	5320 2390 5250 2390
+Wire Wire Line
+	5650 2980 5210 2980
+Wire Wire Line
+	4600 2980 4270 2980
+Connection ~ 4270 2980
+Wire Wire Line
+	4850 2300 4850 2580
+Wire Wire Line
+	4610 1900 4650 1900
+$Comp
+L C C?
+U 1 1 59B166B5
+P 5320 1610
+F 0 "C?" H 5345 1710 50  0000 L CNN
+F 1 "100nF" H 5345 1510 50  0000 L CNN
+F 2 "" H 5358 1460 50  0001 C CNN
+F 3 "" H 5320 1610 50  0001 C CNN
+	1    5320 1610
+	0    1    1    0   
+$EndComp
+Text GLabel 5580 1610 2    60   Input ~ 0
+GND
+Wire Wire Line
+	5170 1610 4850 1610
+Connection ~ 4850 1610
+Wire Wire Line
+	5470 1610 5580 1610
+Text GLabel 6570 3650 0    60   Input ~ 0
+GND
+Text GLabel 6910 1900 0    60   Input ~ 0
+WAVE3
+$Comp
+L TL074 U?
+U 3 1 59B16809
+P 7250 2000
+F 0 "U?" H 7250 2200 50  0000 L CNN
+F 1 "TL074" H 7250 1800 50  0000 L CNN
+F 2 "" H 7200 2100 50  0001 C CNN
+F 3 "" H 7300 2200 50  0001 C CNN
+	3    7250 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 1410 0    60   Input ~ 0
+VCC
+Text GLabel 7150 2580 0    60   Input ~ 0
+VEE
+$Comp
+L LED_Dual_2pin D?
+U 1 1 59B16811
+P 7200 2980
+F 0 "D?" H 7200 3205 50  0000 C CNN
+F 1 "LED_Dual_2pin" H 7200 2730 50  0000 C CNN
+F 2 "" H 7200 2980 50  0001 C CNN
+F 3 "" H 7200 2980 50  0001 C CNN
+	1    7200 2980
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59B16817
+P 6570 3330
+F 0 "R?" V 6650 3330 50  0000 C CNN
+F 1 "1k" V 6570 3330 50  0000 C CNN
+F 2 "" V 6500 3330 50  0001 C CNN
+F 3 "" H 6570 3330 50  0001 C CNN
+	1    6570 3330
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59B1681D
+P 7400 2390
+F 0 "C?" H 7425 2490 50  0000 L CNN
+F 1 "100nF" H 7425 2290 50  0000 L CNN
+F 2 "" H 7438 2240 50  0001 C CNN
+F 3 "" H 7400 2390 50  0001 C CNN
+	1    7400 2390
+	0    1    1    0   
+$EndComp
+Text GLabel 7620 2390 2    60   Input ~ 0
+GND
+Wire Wire Line
+	7150 1410 7150 1700
+Wire Wire Line
+	7550 2000 7950 2000
+Wire Wire Line
+	6570 2100 6570 3180
+Wire Wire Line
+	6570 2100 6950 2100
+Wire Wire Line
+	6570 3650 6570 3480
+Wire Wire Line
+	7250 2390 7150 2390
+Connection ~ 7150 2390
+Wire Wire Line
+	7950 2000 7950 2980
+Wire Wire Line
+	7620 2390 7550 2390
+Wire Wire Line
+	7950 2980 7510 2980
+Wire Wire Line
+	6900 2980 6570 2980
+Connection ~ 6570 2980
+Wire Wire Line
+	7150 2300 7150 2580
+Wire Wire Line
+	6910 1900 6950 1900
+$Comp
+L C C?
+U 1 1 59B16832
+P 7620 1610
+F 0 "C?" H 7645 1710 50  0000 L CNN
+F 1 "100nF" H 7645 1510 50  0000 L CNN
+F 2 "" H 7658 1460 50  0001 C CNN
+F 3 "" H 7620 1610 50  0001 C CNN
+	1    7620 1610
+	0    1    1    0   
+$EndComp
+Text GLabel 7880 1610 2    60   Input ~ 0
+GND
+Wire Wire Line
+	7470 1610 7150 1610
+Connection ~ 7150 1610
+Wire Wire Line
+	7770 1610 7880 1610
+Text GLabel 8870 3650 0    60   Input ~ 0
+GND
+Text GLabel 9210 1900 0    60   Input ~ 0
+WAVE4
+$Comp
+L TL074 U?
+U 4 1 59B169FB
+P 9550 2000
+F 0 "U?" H 9550 2200 50  0000 L CNN
+F 1 "TL074" H 9550 1800 50  0000 L CNN
+F 2 "" H 9500 2100 50  0001 C CNN
+F 3 "" H 9600 2200 50  0001 C CNN
+	4    9550 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 1410 0    60   Input ~ 0
+VCC
+Text GLabel 9450 2580 0    60   Input ~ 0
+VEE
+$Comp
+L LED_Dual_2pin D?
+U 1 1 59B16A03
+P 9500 2980
+F 0 "D?" H 9500 3205 50  0000 C CNN
+F 1 "LED_Dual_2pin" H 9500 2730 50  0000 C CNN
+F 2 "" H 9500 2980 50  0001 C CNN
+F 3 "" H 9500 2980 50  0001 C CNN
+	1    9500 2980
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59B16A09
+P 8870 3330
+F 0 "R?" V 8950 3330 50  0000 C CNN
+F 1 "1k" V 8870 3330 50  0000 C CNN
+F 2 "" V 8800 3330 50  0001 C CNN
+F 3 "" H 8870 3330 50  0001 C CNN
+	1    8870 3330
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59B16A0F
+P 9700 2390
+F 0 "C?" H 9725 2490 50  0000 L CNN
+F 1 "100nF" H 9725 2290 50  0000 L CNN
+F 2 "" H 9738 2240 50  0001 C CNN
+F 3 "" H 9700 2390 50  0001 C CNN
+	1    9700 2390
+	0    1    1    0   
+$EndComp
+Text GLabel 9920 2390 2    60   Input ~ 0
+GND
+Wire Wire Line
+	9450 1410 9450 1700
+Wire Wire Line
+	9850 2000 10250 2000
+Wire Wire Line
+	8870 2100 8870 3180
+Wire Wire Line
+	8870 2100 9250 2100
+Wire Wire Line
+	8870 3650 8870 3480
+Wire Wire Line
+	9550 2390 9450 2390
+Connection ~ 9450 2390
+Wire Wire Line
+	10250 2000 10250 2980
+Wire Wire Line
+	9920 2390 9850 2390
+Wire Wire Line
+	10250 2980 9810 2980
+Wire Wire Line
+	9200 2980 8870 2980
+Connection ~ 8870 2980
+Wire Wire Line
+	9450 2300 9450 2580
+Wire Wire Line
+	9210 1900 9250 1900
+$Comp
+L C C?
+U 1 1 59B16A24
+P 9920 1610
+F 0 "C?" H 9945 1710 50  0000 L CNN
+F 1 "100nF" H 9945 1510 50  0000 L CNN
+F 2 "" H 9958 1460 50  0001 C CNN
+F 3 "" H 9920 1610 50  0001 C CNN
+	1    9920 1610
+	0    1    1    0   
+$EndComp
+Text GLabel 10180 1610 2    60   Input ~ 0
+GND
+Wire Wire Line
+	9770 1610 9450 1610
+Connection ~ 9450 1610
+Wire Wire Line
+	10070 1610 10180 1610
+$EndSCHEMATC
