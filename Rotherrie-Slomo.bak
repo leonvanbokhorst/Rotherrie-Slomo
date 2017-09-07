@@ -33,7 +33,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "Slomo"
 Date "2017-09-07"
 Rev "v1.0"
@@ -209,5 +209,11 @@ S 12250 1100 1100 1450
 U 59B1533E
 F0 "Bipolar LED" 60
 F1 "Rotherrie-Slomo-001.sch" 60
+$EndSheet
+$Sheet
+S 12250 3100 1100 1500
+U 59B17997
+F0 "Rotherrie-Slomo-Triangle-LFO" 60
+F1 "Rotherrie-Slomo-002.sch" 60
 $EndSheet
 $EndSCHEMATC

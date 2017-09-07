@@ -33,12 +33,12 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Sheet 2 3
+Title "Slomo"
+Date "2017-09-07"
+Rev "v1.0"
+Comp "Rotherrie"
+Comment1 "Leon van Bokhorst"
 Comment2 ""
 Comment3 ""
 Comment4 ""
