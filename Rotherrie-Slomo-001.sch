@@ -90,7 +90,7 @@ U 1 1 59B15D4F
 P 2600 3040
 F 0 "C3" H 2625 3140 50  0000 L CNN
 F 1 "100nF" H 2625 2940 50  0000 L CNN
-F 2 "" H 2638 2890 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2638 2890 50  0001 C CNN
 F 3 "" H 2600 3040 50  0001 C CNN
 	1    2600 3040
 	0    1    1    0   
@@ -103,7 +103,7 @@ U 1 1 59B1615D
 P 2820 2260
 F 0 "C4" H 2845 2360 50  0000 L CNN
 F 1 "100nF" H 2845 2160 50  0000 L CNN
-F 2 "" H 2858 2110 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2858 2110 50  0001 C CNN
 F 3 "" H 2820 2260 50  0001 C CNN
 	1    2820 2260
 	0    1    1    0   
@@ -125,10 +125,6 @@ F 3 "" H 4800 2850 50  0001 C CNN
 	2    4750 2650
 	1    0    0    -1  
 $EndComp
-Text GLabel 4650 2060 1    60   Input ~ 0
-VCC
-Text GLabel 4650 3230 0    60   Input ~ 0
-VEE
 $Comp
 L LED_Dual_2pin D4
 U 1 1 59B16694
@@ -151,32 +147,6 @@ F 3 "" H 4070 3980 50  0001 C CNN
 	1    4070 3980
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C5
-U 1 1 59B166A0
-P 4900 3040
-F 0 "C5" H 4925 3140 50  0000 L CNN
-F 1 "100nF" H 4925 2940 50  0000 L CNN
-F 2 "" H 4938 2890 50  0001 C CNN
-F 3 "" H 4900 3040 50  0001 C CNN
-	1    4900 3040
-	0    1    1    0   
-$EndComp
-Text GLabel 5120 3040 2    60   Input ~ 0
-GND
-$Comp
-L C C6
-U 1 1 59B166B5
-P 5120 2260
-F 0 "C6" H 5145 2360 50  0000 L CNN
-F 1 "100nF" H 5145 2160 50  0000 L CNN
-F 2 "" H 5158 2110 50  0001 C CNN
-F 3 "" H 5120 2260 50  0001 C CNN
-	1    5120 2260
-	0    1    1    0   
-$EndComp
-Text GLabel 5380 2260 2    60   Input ~ 0
-GND
 Text GLabel 6370 4300 3    60   Input ~ 0
 GND
 Text GLabel 6710 2550 0    60   Input ~ 0
@@ -192,10 +162,6 @@ F 3 "" H 7100 2850 50  0001 C CNN
 	3    7050 2650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6950 2060 1    60   Input ~ 0
-VCC
-Text GLabel 6950 3230 0    60   Input ~ 0
-VEE
 $Comp
 L LED_Dual_2pin D5
 U 1 1 59B16811
@@ -218,32 +184,6 @@ F 3 "" H 6370 3980 50  0001 C CNN
 	1    6370 3980
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C7
-U 1 1 59B1681D
-P 7200 3040
-F 0 "C7" H 7225 3140 50  0000 L CNN
-F 1 "100nF" H 7225 2940 50  0000 L CNN
-F 2 "" H 7238 2890 50  0001 C CNN
-F 3 "" H 7200 3040 50  0001 C CNN
-	1    7200 3040
-	0    1    1    0   
-$EndComp
-Text GLabel 7420 3040 2    60   Input ~ 0
-GND
-$Comp
-L C C8
-U 1 1 59B16832
-P 7420 2260
-F 0 "C8" H 7445 2360 50  0000 L CNN
-F 1 "100nF" H 7445 2160 50  0000 L CNN
-F 2 "" H 7458 2110 50  0001 C CNN
-F 3 "" H 7420 2260 50  0001 C CNN
-	1    7420 2260
-	0    1    1    0   
-$EndComp
-Text GLabel 7680 2260 2    60   Input ~ 0
-GND
 Text GLabel 8670 4300 3    60   Input ~ 0
 GND
 Text GLabel 9010 2550 0    60   Input ~ 0
@@ -259,10 +199,6 @@ F 3 "" H 9400 2850 50  0001 C CNN
 	4    9350 2650
 	1    0    0    -1  
 $EndComp
-Text GLabel 9250 2060 1    60   Input ~ 0
-VCC
-Text GLabel 9250 3230 0    60   Input ~ 0
-VEE
 $Comp
 L LED_Dual_2pin D6
 U 1 1 59B16A03
@@ -285,32 +221,6 @@ F 3 "" H 8670 3980 50  0001 C CNN
 	1    8670 3980
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C9
-U 1 1 59B16A0F
-P 9500 3040
-F 0 "C9" H 9525 3140 50  0000 L CNN
-F 1 "100nF" H 9525 2940 50  0000 L CNN
-F 2 "" H 9538 2890 50  0001 C CNN
-F 3 "" H 9500 3040 50  0001 C CNN
-	1    9500 3040
-	0    1    1    0   
-$EndComp
-Text GLabel 9720 3040 2    60   Input ~ 0
-GND
-$Comp
-L C C10
-U 1 1 59B16A24
-P 9720 2260
-F 0 "C10" H 9745 2360 50  0000 L CNN
-F 1 "100nF" H 9745 2160 50  0000 L CNN
-F 2 "" H 9758 2110 50  0001 C CNN
-F 3 "" H 9720 2260 50  0001 C CNN
-	1    9720 2260
-	0    1    1    0   
-$EndComp
-Text GLabel 9980 2260 2    60   Input ~ 0
-GND
 Wire Wire Line
 	2350 2060 2350 2350
 Wire Wire Line
@@ -343,8 +253,6 @@ Connection ~ 2350 2260
 Wire Wire Line
 	2970 2260 3080 2260
 Wire Wire Line
-	4650 2060 4650 2350
-Wire Wire Line
 	5050 2650 5450 2650
 Wire Wire Line
 	4070 2750 4070 3830
@@ -353,28 +261,14 @@ Wire Wire Line
 Wire Wire Line
 	4070 4300 4070 4130
 Wire Wire Line
-	4750 3040 4650 3040
-Connection ~ 4650 3040
-Wire Wire Line
 	5450 2650 5450 3630
-Wire Wire Line
-	5120 3040 5050 3040
 Wire Wire Line
 	5450 3630 5010 3630
 Wire Wire Line
 	4400 3630 4070 3630
 Connection ~ 4070 3630
 Wire Wire Line
-	4650 2950 4650 3230
-Wire Wire Line
 	4410 2550 4450 2550
-Wire Wire Line
-	4970 2260 4650 2260
-Connection ~ 4650 2260
-Wire Wire Line
-	5270 2260 5380 2260
-Wire Wire Line
-	6950 2060 6950 2350
 Wire Wire Line
 	7350 2650 7750 2650
 Wire Wire Line
@@ -384,28 +278,14 @@ Wire Wire Line
 Wire Wire Line
 	6370 4300 6370 4130
 Wire Wire Line
-	7050 3040 6950 3040
-Connection ~ 6950 3040
-Wire Wire Line
 	7750 2650 7750 3630
-Wire Wire Line
-	7420 3040 7350 3040
 Wire Wire Line
 	7750 3630 7310 3630
 Wire Wire Line
 	6700 3630 6370 3630
 Connection ~ 6370 3630
 Wire Wire Line
-	6950 2950 6950 3230
-Wire Wire Line
 	6710 2550 6750 2550
-Wire Wire Line
-	7270 2260 6950 2260
-Connection ~ 6950 2260
-Wire Wire Line
-	7570 2260 7680 2260
-Wire Wire Line
-	9250 2060 9250 2350
 Wire Wire Line
 	9650 2650 10050 2650
 Wire Wire Line
@@ -415,24 +295,12 @@ Wire Wire Line
 Wire Wire Line
 	8670 4300 8670 4130
 Wire Wire Line
-	9350 3040 9250 3040
-Connection ~ 9250 3040
-Wire Wire Line
 	10050 2650 10050 3630
-Wire Wire Line
-	9720 3040 9650 3040
 Wire Wire Line
 	10050 3630 9610 3630
 Wire Wire Line
 	9000 3630 8670 3630
 Connection ~ 8670 3630
 Wire Wire Line
-	9250 2950 9250 3230
-Wire Wire Line
 	9010 2550 9050 2550
-Wire Wire Line
-	9570 2260 9250 2260
-Connection ~ 9250 2260
-Wire Wire Line
-	9870 2260 9980 2260
 $EndSCHEMATC

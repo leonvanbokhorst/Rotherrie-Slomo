@@ -43,25 +43,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_02X08 J1
-U 1 1 59B14829
-P 1800 2600
-F 0 "J1" H 1800 3050 50  0000 C CNN
-F 1 "CONN_02X08" V 1800 2600 50  0000 C CNN
-F 2 "" H 1800 1400 50  0001 C CNN
-F 3 "" H 1800 1400 50  0001 C CNN
-	1    1800 2600
-	-1   0    0    1   
-$EndComp
-Text Notes 1500 2050 0    60   ~ 0
-Power connector
-NoConn ~ 1550 2250
-NoConn ~ 1550 2350
-NoConn ~ 1550 2450
-NoConn ~ 2050 2450
-NoConn ~ 2050 2350
-NoConn ~ 2050 2250
+Text Notes 1300 2300 0    60   ~ 0
+10 pin power connector
 Text Label 2050 2550 0    60   ~ 0
 +12V
 Text Label 2050 2650 0    60   ~ 0
@@ -149,7 +132,7 @@ U 1 1 59B14CBF
 P 4800 2250
 F 0 "C1" H 4825 2350 50  0000 L CNN
 F 1 "22uF" H 4825 2150 50  0000 L CNN
-F 2 "" H 4838 2100 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D7.5mm_P2.50mm" H 4838 2100 50  0001 C CNN
 F 3 "" H 4800 2250 50  0001 C CNN
 	1    4800 2250
 	1    0    0    -1  
@@ -160,7 +143,7 @@ U 1 1 59B14CF3
 P 4800 2750
 F 0 "C2" H 4825 2850 50  0000 L CNN
 F 1 "22uF" H 4825 2650 50  0000 L CNN
-F 2 "" H 4838 2600 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D7.5mm_P2.50mm" H 4838 2600 50  0001 C CNN
 F 3 "" H 4800 2750 50  0001 C CNN
 	1    4800 2750
 	1    0    0    -1  
@@ -216,4 +199,15 @@ U 59B17997
 F0 "Rotherrie-Slomo-Triangle-LFO" 60
 F1 "Rotherrie-Slomo-002.sch" 60
 $EndSheet
+$Comp
+L CONN_02X05 J1
+U 1 1 59B28D47
+P 1800 2750
+F 0 "J1" H 1800 3050 50  0000 C CNN
+F 1 "CONN_02X05" H 1800 2450 50  0000 C CNN
+F 2 "" H 1800 1550 50  0001 C CNN
+F 3 "" H 1800 1550 50  0001 C CNN
+	1    1800 2750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
