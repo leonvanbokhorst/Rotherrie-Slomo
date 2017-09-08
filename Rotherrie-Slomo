@@ -1,0 +1,10 @@
+Qty,partname,description,lib
+0,"C","Unpolarized capacitor","device"
+0,"CONN_02X05","Connector, double row, 02x05, pin header","conn"
+0,"CP","Polarised capacitor","device"
+0,"D_Schottky","Schottky diode","device"
+0,"JACK_2P","2-pin Mono audio Jack, withc switch contact","conn"
+0,"LED_Dual_2pin","LED dual, 2pin version","device"
+0,"LM2902N","Quad Op amp.","linear"
+0,"POT","Potentionmeter","device"
+0,"R","Resistor","device"

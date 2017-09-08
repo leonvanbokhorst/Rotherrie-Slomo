@@ -3,7 +3,7 @@
   (general
     (links 91)
     (no_connects 91)
-    (area 81.331999 48.184999 181.050001 67.766001)
+    (area 25.083 46.834 266.565002 185.34)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -70,7 +70,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFEFF7F)
+    (visible_elements FFFEF77F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -2592,7 +2592,7 @@
   )
 
   (module Housings_DIP:DIP-14_W7.62mm_Socket (layer F.Cu) (tedit 58CC8E2C) (tstamp 59B28ED4)
-    (at 216.916 30.48 90)
+    (at 53.467 83.439 90)
     (descr "14-lead dip package, row spacing 7.62 mm (300 mils), Socket")
     (tags "DIL DIP PDIP 2.54mm 7.62mm 300mil Socket")
     (path /59B1533E/59B15484)
@@ -2664,7 +2664,7 @@
   )
 
   (module Housings_DIP:DIP-14_W7.62mm_Socket (layer F.Cu) (tedit 58CC8E2C) (tstamp 59B28EE6)
-    (at 241.808 29.972 90)
+    (at 28.448 60.198 90)
     (descr "14-lead dip package, row spacing 7.62 mm (300 mils), Socket")
     (tags "DIL DIP PDIP 2.54mm 7.62mm 300mil Socket")
     (path /59B17997/59B17A97)
