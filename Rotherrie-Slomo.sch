@@ -266,23 +266,23 @@ Text Notes 7200 5300 0    60   ~ 0
 Top
 Text Notes 8350 5300 0    60   ~ 0
 Bottom
-Text GLabel 3750 4450 0    60   Input ~ 0
-POT1
-Text GLabel 3750 4550 0    60   Input ~ 0
-LED1
-Text GLabel 3750 4650 0    60   Input ~ 0
-LED1R
-Text GLabel 3750 4750 0    60   Input ~ 0
-POT2
-Text GLabel 3750 4850 0    60   Input ~ 0
-LED2
-Text GLabel 3750 4950 0    60   Input ~ 0
-LED2R
-Text GLabel 3750 5050 0    60   Input ~ 0
-GND
-Text GLabel 5050 4450 0    60   Input ~ 0
-POT3
 Text GLabel 5050 4550 0    60   Input ~ 0
+POT1
+Text GLabel 3750 4450 0    60   Input ~ 0
+LED1
+Text GLabel 3750 4550 0    60   Input ~ 0
+LED1R
+Text GLabel 5050 4650 0    60   Input ~ 0
+POT2
+Text GLabel 3750 4650 0    60   Input ~ 0
+LED2
+Text GLabel 3750 4750 0    60   Input ~ 0
+LED2R
+Text GLabel 5050 4950 0    60   Input ~ 0
+GND
+Text GLabel 5050 4750 0    60   Input ~ 0
+POT3
+Text GLabel 3750 4850 0    60   Input ~ 0
 LED3
 Text GLabel 5050 5050 0    60   Input ~ 0
 GND
@@ -342,40 +342,40 @@ Wire Wire Line
 	8300 4950 8400 4950
 Wire Wire Line
 	8300 5050 8400 5050
-Text GLabel 5050 4650 0    60   Input ~ 0
+Text GLabel 3750 4950 0    60   Input ~ 0
 LED3R
-Text GLabel 5050 4750 0    60   Input ~ 0
-POT4
 Text GLabel 5050 4850 0    60   Input ~ 0
+POT4
+Text GLabel 3750 5050 0    60   Input ~ 0
 LED4
-Text GLabel 5050 4950 0    60   Input ~ 0
+Text GLabel 5050 4450 0    60   Input ~ 0
 LED4R
 Text GLabel 6950 4450 0    60   Input ~ 0
-POT1
-Text GLabel 6950 4550 0    60   Input ~ 0
 LED1
-Text GLabel 6950 4650 0    60   Input ~ 0
+Text GLabel 6950 4550 0    60   Input ~ 0
 LED1R
-Text GLabel 6950 4750 0    60   Input ~ 0
-POT2
-Text GLabel 6950 4850 0    60   Input ~ 0
+Text GLabel 6950 4650 0    60   Input ~ 0
 LED2
-Text GLabel 6950 4950 0    60   Input ~ 0
+Text GLabel 6950 4750 0    60   Input ~ 0
 LED2R
-Text GLabel 6950 5050 0    60   Input ~ 0
-GND
-Text GLabel 8300 4450 0    60   Input ~ 0
-POT3
-Text GLabel 8300 4550 0    60   Input ~ 0
+Text GLabel 6950 4850 0    60   Input ~ 0
 LED3
+Text GLabel 6950 4950 0    60   Input ~ 0
+LED3R
+Text GLabel 6950 5050 0    60   Input ~ 0
+LED4
+Text GLabel 8300 4550 0    60   Input ~ 0
+POT1
+Text GLabel 8300 4650 0    60   Input ~ 0
+POT2
+Text GLabel 8300 4950 0    60   Input ~ 0
+GND
+Text GLabel 8300 4750 0    60   Input ~ 0
+POT3
 Text GLabel 8300 5050 0    60   Input ~ 0
 GND
-Text GLabel 8300 4650 0    60   Input ~ 0
-LED3R
-Text GLabel 8300 4750 0    60   Input ~ 0
-POT4
 Text GLabel 8300 4850 0    60   Input ~ 0
-LED4
-Text GLabel 8300 4950 0    60   Input ~ 0
+POT4
+Text GLabel 8300 4450 0    60   Input ~ 0
 LED4R
 $EndSCHEMATC
